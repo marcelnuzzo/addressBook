@@ -1,0 +1,45 @@
+voici la liste des éléments à faire (fais ce que tu peux / on verra ça
+ensemble vendredi prochain) :
+
+sur la page d'authentification :
+- rajouter un lien mot de passe oublié
+étape 1. Formulaire pour saisir une adresse email
+étape 2. Vérifier dans la base si l'adresse email est présente
+étape 3.
+- si oui, envoi email à l'adresse indiqué avec un mdp provisoihe
+- si non, message d'erreur «adresse email inconnu.
+
+
+
+Après authentification: rdirection directe vers la liste des contacts
+
+
+retirer superman, mettre un logo, et dans le footer mettre qch d'approprier
+rajouter dynamiquement page="current" dans le lien actif du menu
+
+retirer le lien accueil dans le menu en mode admin
+
+revoir la dispostion des éléments du tri/filtrage
+remplacer référence par identifiant
+metrre en évidence le filtre trier par rapport à la cocone du tableau
+bouton pour réinitialiser les filtres
+
+rajouter une confirmation alerte en js etr/ou fenêtre modal (transmettre
+à marcel une fiche ataln sur l'accesiblité des fenêtresz modales)
+
+
+retirer nom d'utilisateur pour éviter redondance
+
+faire le formulaire d'edition en une fois
+dans le formulaire edition user :
+- champs obligatoires: nom, prénom, email, role (bouton radio)
+- regex : le format email  est bien géré.
+Traitement:
+étape 1. saisir les informations
+étape 2. Valider le formulaire
+étape 3. Vérifier si toutes les champs sont remplis
+étape 4.
+a) si non, message erreur.
+b) si oui :
+- enregistrement en bdd
+- envoi email automatique à l'adresse indiquée (arc le mdp provisoire).
